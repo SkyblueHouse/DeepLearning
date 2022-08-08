@@ -11,7 +11,9 @@ by Gilbut
 ### The Sequential Model
 When to use a Sequential model
 A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
-- https://keras.io/guides/sequential_model/
+(https://keras.io/guides/sequential_model/)
+
+- Tensor : Tensors are multi-dimensional arrays with a uniform type / All tensors are immutable like Python numbers and strings: you can never update the contents of a tensor, only create a new one. (https://www.tensorflow.org/guide/tensor)
 
 ### Dense Layer
 
