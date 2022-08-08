@@ -27,6 +27,8 @@ A Sequential model is appropriate for a plain stack of layers where each layer h
 - Lambda layer
 
 
+### Build Model and Run!
+
 `model = Sequential()`<br>
 `model.add(Dense(30, input_dim=17, activation='rule'))`<br>
 `model.add(Dense(1, activation='sigmoid'))`<br>
