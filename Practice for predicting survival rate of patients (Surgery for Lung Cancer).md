@@ -27,9 +27,9 @@ A Sequential model is appropriate for a plain stack of layers where each layer h
 - Lambda layer
 
 
-`model = Sequential()
-model.add(Dense(30, input_dim=17, activation='rule'))
-model.add(Dense(1, activation='sigmoid'))
-model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.fit(X,Y, epochs=100, batch_size=10)`
+`model = Sequential()`
+`model.add(Dense(30, input_dim=17, activation='rule'))`
+`model.add(Dense(1, activation='sigmoid'))`
+`model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])`
+`model.fit(X,Y, epochs=100, batch_size=10)`
 
