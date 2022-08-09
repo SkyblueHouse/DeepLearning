@@ -5,7 +5,7 @@ colab : https://github.com/hyunhwalee/DeepLearning/blob/main/colab/run_project/c
 by Gilbut
 
 1. Data
-2. Tensorflow (Sequential, Dense)
+2. Keras / Tensorflow (Sequential, Dense) * ex: Your DL project is your journey - Keras : Controller / Tensorflow : Airplane 
 3. Library 
 
 ### The Sequential Model
